@@ -24,9 +24,9 @@ function playMorse(morseCode) {
             break;
         }
       }, delay));
-      delay += 250; // Add 500ms delay for the next symbol
+      delay += 250;
     });
-    delay += 500; // Add extra delay between characters
+    delay += 500;
   });
 
   // Reset the button text and state when playback is complete
