@@ -139,11 +139,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Theme Toggle Functionality
   const themeToggle = document.getElementById("theme-toggle");
-  const currentTheme = localStorage.getItem("theme") || "light";
+  const prefersDarkScheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const currentTheme = localStorage.getItem("theme") || (prefersDarkScheme ? "dark" : "light");
   document.body.classList.add(currentTheme);
 
   themeToggle.addEventListener("click", () => {
     const isDarkMode = document.body.classList.toggle("dark");
+
     document.body.classList.toggle("light", !isDarkMode);
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
 
