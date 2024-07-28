@@ -42,7 +42,6 @@ Alternatively, view the live demo hosted on GitHub Pages.
 - Enter text or Morse code in the input field.
 - Press the Enter key to translate the input.
 - The translation will be displayed in the output field.
-
 # Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or fork the repository and submit a pull request.
