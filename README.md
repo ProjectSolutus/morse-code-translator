@@ -1,8 +1,14 @@
 # Morse Code Translator
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-HTML5-red)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-CSS3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Howler.js](https://img.shields.io/badge/Howler.js-v2.2.4-white)](https://github.com/goldfire/howler.js)
+
 This web application translates text to Morse code and vice versa, offering a digital rendition of a communication method developed in the early 19th century. Morse code was pivotal in long-distance communication before the advent of widespread telecommunications. Today, it remains significant not only for its historical value but also for its applications in accessibility, particularly for individuals with disabilities who may use it for communication via assistive devices.
 
 ![image](https://github.com/user-attachments/assets/7ce55252-b9f4-4239-a429-b597b6e878d3)
+
 
 <p align="center">
 <a href="https://projectsolutus.github.io/morse-code-translator/">Live Demo</a>
@@ -17,13 +23,6 @@ This project is a hobby project created for learning and fun, aiming to explore 
 - Translate text to Morse code and vice versa.
 - Play Morse code as audio tones.
 - Translate text by hitting the Enter key.
-
-# Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Howler.js for audio playback
 
 # Getting Started
 
